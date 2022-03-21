@@ -38,6 +38,11 @@ hexo server
 hexo s
 ```
 
+### 推送
+```shell script
+hexo clean && hexo g -d
+```
+
 ## 主题配置
 
 使用next的方式
