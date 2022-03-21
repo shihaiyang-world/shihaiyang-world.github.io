@@ -72,5 +72,24 @@ scheme: Gemini
 ## 开启评论
 
 ## 阅读时间
+```shell script
+npm install hexo-word-counter
+hexo clean
+```
+
+/themes/next/_config.yml 
+```yaml
+# 文章字数统计
+symbols_count_time:
+  symbols: true
+  time: true
+  total_symbols: true
+  total_time: true
+  exclude_codeblock: false
+  awl: 4
+  wpm: 275
+  suffix: "mins."
+```
+参考：https://github.com/next-theme/hexo-word-counter
 
 ## 
