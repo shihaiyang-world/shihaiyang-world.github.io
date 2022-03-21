@@ -40,6 +40,28 @@ hexo s
 
 ## 主题配置
 
+使用next的方式
+```shell script
+$ cd hexo-site
+$ git clone https://github.com/next-theme/hexo-theme-next themes/next
+
+$ cd hexo-site
+$ cd themes/next
+$ git pull origin master
+
+```
+在修改_config.yml
+```yaml
+theme: next
+```
+
+设置风格
+/themes/next/_config.yml 
+```shell script
+scheme: Gemini
+```
+
+参考：https://theme-next.js.org/docs/getting-started/
 
 
 ## 开启评论
