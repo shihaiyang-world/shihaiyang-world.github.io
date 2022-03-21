@@ -71,6 +71,20 @@ scheme: Gemini
 
 ## 开启评论
 
+使用valine评论系统： https://qianfanguojin.top/2022/01/20/Hexo%E5%8D%9A%E5%AE%A2%E8%BF%9B%E9%98%B6%EF%BC%9A%E4%B8%BA-Next-%E4%B8%BB%E9%A2%98%E6%B7%BB%E5%8A%A0-Waline-%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F/
+```yaml
+valine:
+  enable: true # 是否开启
+  appid:   # 上一步获取的 App ID
+  appkey:  # 上一步获取的 App Key
+  notify: false # 新留言是否需要通知 https://github.com/xCss/Valine/wiki
+  verify: false # 是否需要验证，验证比较反人类建议false关闭
+  placeholder: 请在此输入您的留言 # 默认留言框内的文字
+  avatar: mm # 默认头像
+  guest_info: nick,mail # 默认留言框的头部需要访问者输入的信息
+  pageSize: 10 # pagination size #默认单页的留言条数
+```
+
 ## 阅读时间
 ```shell script
 npm install hexo-word-counter
