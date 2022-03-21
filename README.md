@@ -71,7 +71,7 @@ scheme: Gemini
 
 ## 开启评论
 
-使用valine评论系统： https://qianfanguojin.top/2022/01/20/Hexo%E5%8D%9A%E5%AE%A2%E8%BF%9B%E9%98%B6%EF%BC%9A%E4%B8%BA-Next-%E4%B8%BB%E9%A2%98%E6%B7%BB%E5%8A%A0-Waline-%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F/
+使用valine评论系统： https://valine.js.org/quickstart.html
 ```yaml
 valine:
   enable: true # 是否开启
