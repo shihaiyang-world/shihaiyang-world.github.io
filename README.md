@@ -69,22 +69,6 @@ scheme: Gemini
 参考：https://theme-next.js.org/docs/getting-started/
 
 
-## 开启评论
-
-使用valine评论系统： https://valine.js.org/quickstart.html
-```yaml
-valine:
-  enable: true # 是否开启
-  appid:   # 上一步获取的 App ID
-  appkey:  # 上一步获取的 App Key
-  notify: false # 新留言是否需要通知 https://github.com/xCss/Valine/wiki
-  verify: false # 是否需要验证，验证比较反人类建议false关闭
-  placeholder: 请在此输入您的留言 # 默认留言框内的文字
-  avatar: mm # 默认头像
-  guest_info: nick,mail # 默认留言框的头部需要访问者输入的信息
-  pageSize: 10 # pagination size #默认单页的留言条数
-```
-
 ## 阅读时间
 ```shell script
 npm install hexo-word-counter
@@ -106,4 +90,19 @@ symbols_count_time:
 ```
 参考：https://github.com/next-theme/hexo-word-counter
 
-## 
+## 开启评论 TODO
+
+https://console.leancloud.cn/apps
+使用valine评论系统： https://valine.js.org/quickstart.html
+```yaml
+valine:
+  enable: true # 是否开启
+  appid:   # 上一步获取的 App ID
+  appkey:  # 上一步获取的 App Key
+  notify: false # 新留言是否需要通知 https://github.com/xCss/Valine/wiki
+  verify: false # 是否需要验证，验证比较反人类建议false关闭
+  placeholder: 请在此输入您的留言 # 默认留言框内的文字
+  avatar: mm # 默认头像
+  guest_info: nick,mail # 默认留言框的头部需要访问者输入的信息
+  pageSize: 10 # pagination size #默认单页的留言条数
+```
