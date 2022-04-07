@@ -205,7 +205,7 @@
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2022-03-30 16:05:19" itemprop="dateModified" datetime="2022-03-30T16:05:19+08:00">2022-03-30</time>
+      <time title="修改时间：2022-04-06 20:52:16" itemprop="dateModified" datetime="2022-04-06T20:52:16+08:00">2022-04-06</time>
     </span>
 
   
@@ -214,7 +214,7 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>13k</span>
+      <span>14k</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
@@ -365,8 +365,28 @@
 
 <h5 id="4-程序装入方式"><a href="#4-程序装入方式" class="headerlink" title="4. 程序装入方式"></a>4. 程序装入方式</h5><figure class="highlight shell"><figcaption><span>script</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">1. 绝对装入：在编译时就知道程序将主流内存的物理地址，编译程序产生含有物理地址的代码。  主要是在一些芯片上，固定就操作哪些地址。速度更快。</span><br><span class="line">2. 可重定位装入：静态重定位，操作系统分配以某一地址为其实地址的连续内存，在装入时，一次性完成地址转换，将程序指令的逻辑地址加上起始地址得到物理地址</span><br><span class="line">3. 动态运行时装入：装入模块时，地址仍是相对地址，程序访问过程中，访问到响应指令时才将相对地址转换为物理地址，需要硬件来进行虚拟地址到物理地址的转换。</span><br><span class="line">应用一般会使用此方式。</span><br></pre></td></tr></table></figure>
 
-<h5 id="5"><a href="#5" class="headerlink" title="5."></a>5.</h5><h3 id="四、计算机网络"><a href="#四、计算机网络" class="headerlink" title="四、计算机网络"></a>四、计算机网络</h3><h3 id="五、计算机组成原理"><a href="#五、计算机组成原理" class="headerlink" title="五、计算机组成原理"></a>五、计算机组成原理</h3><p>冯诺依曼的组成<br>计算机䚆系统由运算器、存储器、控制器、输入、输出设备。<br>指令和数据以同等地位存储在存储器中，可按地址寻址。<br>指令和数据均采用二进制代码表示。<br>指令由操作码和地址码组成，操作码用来表示操作的性质，地址码用来表示操作数在存储器中的位置。<br>指令在存储器中顺序存放，通常指令是顺序执行的，在特定条件下，可以根据运算结果或者特定条件改变顺序。</p>
+<h5 id="5"><a href="#5" class="headerlink" title="5."></a>5.</h5><h3 id="四、计算机网络"><a href="#四、计算机网络" class="headerlink" title="四、计算机网络"></a>四、计算机网络</h3><h3 id="五、计算机组成原理"><a href="#五、计算机组成原理" class="headerlink" title="五、计算机组成原理"></a>五、计算机组成原理</h3><figure class="highlight shell"><figcaption><span>script</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">1. 概述</span><br><span class="line">2. 数据的表示和运算</span><br><span class="line">3. 存储系统</span><br><span class="line">4. 指令系统</span><br><span class="line">5. 中央处理器</span><br><span class="line">6. 总线</span><br><span class="line">7. 输入输出系统</span><br></pre></td></tr></table></figure>
 
+
+
+<h4 id="冯诺依曼的组成"><a href="#冯诺依曼的组成" class="headerlink" title="冯诺依曼的组成"></a>冯诺依曼的组成</h4><p>计算机䚆系统由运算器、存储器、控制器、输入、输出设备。<br>指令和数据以同等地位存储在存储器中，可按地址寻址。<br>指令和数据均采用二进制代码表示。<br>指令由操作码和地址码组成，操作码用来表示操作的性质，地址码用来表示操作数在存储器中的位置。<br>指令在存储器中顺序存放，通常指令是顺序执行的，在特定条件下，可以根据运算结果或者特定条件改变顺序。</p>
+<h4 id="3-存储系统"><a href="#3-存储系统" class="headerlink" title="3. 存储系统"></a>3. 存储系统</h4><h5 id="10-多级存储系统"><a href="#10-多级存储系统" class="headerlink" title="10.多级存储系统"></a>10.多级存储系统</h5><figure class="highlight shell"><figcaption><span>script</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">解决高速度，低成本，大容量三个方向的平衡。</span><br><span class="line">速度高，容量小，成本高。比如缓存Cache、内存</span><br><span class="line">速度低，容量大，成本低。比如磁盘、</span><br></pre></td></tr></table></figure>
+
+<h5 id="14-虚拟存储系统"><a href="#14-虚拟存储系统" class="headerlink" title="14.虚拟存储系统"></a>14.虚拟存储系统</h5><p>14.1 虚拟存储的基本概念</p>
+<figure class="highlight shell"><figcaption><span>script</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">包括换入换出功能，从逻辑上对内存扩容的一种存储器系统。</span><br></pre></td></tr></table></figure>
+<p>14.2 页式存储</p>
+<figure class="highlight shell"><figcaption><span>script</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">把物理地址和虚拟地址分成固定大小的页，一般是4Kb。</span><br><span class="line">页式存储包括页号和页内偏移两部分。</span><br><span class="line">页表是是虚拟页号和物理页号的映射表。</span><br><span class="line">页式管理由操作系统管理，对程序员透明。</span><br></pre></td></tr></table></figure>
+
+<p>14.3 段式存储</p>
+<figure class="highlight shell"><figcaption><span>script</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">把主存按段分配的的管理方式。</span><br><span class="line">每个用户程序可以分配一个段，程序只能访问分配的段内的缓存。段长可以任意指定，可以放大和缩小。</span><br><span class="line">面向程序的。</span><br></pre></td></tr></table></figure>
+
+<p>14.4 段页式存储</p>
+<figure class="highlight shell"><figcaption><span>script</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">把存储空间按逻辑分成段，把段再分成页。</span><br><span class="line">段大小是页的倍数。段的起点是某个页的起点</span><br></pre></td></tr></table></figure>
+
+<p>14.5 快表TLB</p>
+<figure class="highlight shell"><figcaption><span>script</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">虚拟内存系统把虚拟页号转换成物理页号需要一个转换的过程。</span><br><span class="line">需要先从主存查页表，再根据主存物理地址去读内存。因此访问速度增多了。</span><br><span class="line">为了提升效率，减少读取次数，就把最活跃的页表放入高速缓存中。在高速缓存中的页表项称为块表。</span><br><span class="line">查询的时候会同时查询快表和慢表，如果再快表中找到该虚页号，就能快速的映射实页号，并将其送入主内存寄存器，同时使</span><br><span class="line">慢表的查找作废，这时内存的访问没有降低多少。如果没有在快表中找到，就经过慢表一个访问主存的延迟后，在送入主存寄存器，再存入快表。</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h4 id="4-指令系统"><a href="#4-指令系统" class="headerlink" title="4.指令系统"></a>4.指令系统</h4><h4 id="5-中央处理器"><a href="#5-中央处理器" class="headerlink" title="5. 中央处理器"></a>5. 中央处理器</h4><h4 id="6-总线"><a href="#6-总线" class="headerlink" title="6. 总线"></a>6. 总线</h4>
       
     </div>
 
@@ -587,13 +607,13 @@
     <span class="post-meta-item-icon">
       <i class="fa fa-chart-line"></i>
     </span>
-    <span title="站点总字数">13k</span>
+    <span title="站点总字数">14k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    <span title="站点阅读时长">12 分钟</span>
+    <span title="站点阅读时长">13 分钟</span>
   </span>
 </div>
 <div class="busuanzi-count">
